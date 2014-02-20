@@ -1,0 +1,19 @@
+// Medium screens ========================================================================== /
+@media screen and (min-width: $break-medium-small) and (max-width: $break-medium-large) {
+// ------------ header
+
+@include collapse-menu;
+ 
+// ------------ content
+
+.smallFloat {
+  float: right;
+  padding: 0 0 10px 10px;
+}
+
+@include collapse-right-column;
+
+// ------------ footer
+
+ @include collapse-footer;
+}

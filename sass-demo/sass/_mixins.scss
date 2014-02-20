@@ -1,0 +1,88 @@
+// Mixins ======================================================================================== /
+
+@mixin clearfix { // micro clearfix
+  zoom: 1;
+  &:before, &:after { content: ""; display: table; }
+  &:after { clear: both; }
+}
+
+@mixin border-box { // border-box mixin
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@mixin collapse-menu {
+  .menu {
+    width: 100%;
+  }
+  .header-item {
+    margin-top: 0;
+    padding:0;
+  }
+
+ .menu-button {
+   float: right;
+   margin-right: 5px;
+   display:inline-block;
+  }
+
+  #header-logo {
+   display: inline-block;
+  }
+
+ #header-menu {
+   display: none;
+  }
+}
+
+@mixin collapse-right-column {
+  h4.puff-header {
+   text-align: center;
+   padding-left: 0;
+   font-size: 1.4em;
+  }
+
+  .puff li {
+    text-align: center;
+    padding: 5px 0 5px 0;
+  }
+
+ .puff li a {
+   text-decoration: none;
+   font-size: 1.3em;
+   font-family: 'HM Ampersand Light';
+  }
+
+ .puff li:before {
+   content: "";
+  }
+
+  .puff a {
+    margin-left: 0;
+  }
+}
+
+@mixin collapse-footer {
+  #footer-links {
+    float:none;
+  }
+
+  .footer-bg {
+    height: auto;
+    margin-bottom: -$vertical-measure;
+    width: 100%;
+  }
+
+  .footer-list li {
+    display: block;
+    font-size: 1.3em;
+    line-height: $line-height * 2;
+    text-align: center;
+    padding: 0;
+  }
+
+  #footer-copyright {
+   text-align: center;
+  }
+}

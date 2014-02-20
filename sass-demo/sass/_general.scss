@@ -1,0 +1,157 @@
+// General css =========================================================================== /
+body { padding: 0; margin: 0; }
+.container { width: 100%; max-width: $max-width; margin: 0 auto; padding: 0; }
+section div { padding: 1em 0; }
+
+// ------------ header
+.header-bg {
+  height: $menu-height;
+  background-color: $menu-bgcolor;
+  color: $menu-color;
+  width: $page-width;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header {
+  height: 325px;
+  background-image: url('../images/imgCloudBg.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.menu {
+  height: $menu-height;
+  width: $page-width;
+  background-color: $menu-bgcolor;
+  color: $menu-color;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.navlist {
+  display: inline-block;
+}
+
+.navlist li {
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 10px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  line-height: $menu-height;
+  background-image: none;
+}
+
+.navlist li:hover {
+  cursor: pointer;
+}
+
+.navlist li.active {
+  background-image: url('../images/menu-bg.png');
+  background-repeat: no-repeat;
+}
+
+.cloud-icon {
+  height: $icon-size;
+  width: $icon-size;
+  display: block;
+  float: left;
+  margin-top: ($menu-height - $icon-size) / 2;
+  margin-right: 5px;
+}
+
+.menu-button-line {
+  height: 8px;
+  width: 50px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: $white;
+  padding: 0;
+}
+
+.logo {
+  display: inline-block;
+  font-family: 'HM Ampersand Light';
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+
+.profile-pic {
+  width: $page-width;
+  height: 325px;
+  background-image: url('../images/imgCloudBg.png');
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+// ------------ right column
+
+.puff {
+  margin-top: 10px;
+}
+
+.puff li {
+  padding-left: 10px;
+}
+
+.puff li:before {
+  content: "»";
+}
+
+.puff a {
+  margin-left: 10px;
+}
+
+// ------------ footer
+.footer-bg {
+  height: $footer-height;
+  width: $page-width;
+  background-color: $lorum-blue;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  color: $white;
+  font-family: 'HM Ampersand Light';
+}
+
+#footer-copyright {
+  padding-top: 10px;
+}
+
+#footer-links {
+  float:right;
+  padding-top: 20px;
+}
+
+.footer-list li {
+  display: inline-block;
+  padding-right: 90px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  line-height: $line-height;
+}
+
+.footer-list li.last {
+  padding-right: 0;
+}
+
+.footer-list li a {
+  color: $white;
+  text-decoration: none;
+}
+
+p.copyright {
+  color: $white;
+  margin: 0;
+  line-height: $line-height;
+}
+
+.header-item {
+  vertical-align: top;
+  padding-right: 90px;
+}

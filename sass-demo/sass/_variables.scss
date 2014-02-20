@@ -1,0 +1,29 @@
+// gray scale
+$black:                       hsl(0, 0%, 0%);
+$white:                       hsl(0, 0%, 100%);
+
+// typography
+$base-color: $black;
+$font-family: 'HM Ampersand Ultra Light';
+$line-height: 1.375; // line-height equal to 22px
+$vertical-measure: 1.375em; // vertical distance for margins equal to line-height
+
+
+//page width
+$page-width : 1373px;
+
+//menu
+$menu-height : 2 * $vertical-measure;
+$menu-bgcolor: #272727;
+$menu-color: $white;
+$icon-size: 1.6 * $vertical-measure;
+
+//footer
+$footer-height: 3 * $vertical-measure;
+$lorum-blue: #16d1da;
+
+//break points
+$break-small: 359px;
+$break-medium-small: 360px;
+$break-medium-large: 939px;
+$break-large: 940px;

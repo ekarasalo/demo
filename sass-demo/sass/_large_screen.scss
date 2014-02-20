@@ -1,0 +1,55 @@
+// Large screens ========================================================================= /
+@media screen and (min-width: $break-large) {
+ // -------- header
+  #header-menu {
+    display: inline-block;
+  }
+
+ #header-logo {
+   display: inline-block;
+  }
+
+ .smallFloat {
+   float: right;
+   padding: 0 0 10px 10px;
+  }
+
+ .menu-button {
+   display: none;
+  }
+
+ // -------- content
+ .main-content {
+    .first-div {
+      @include offset(left, 1);
+      width: columns(8);
+    }
+    .second-div {
+      @include offset(right, 0);
+      @include last;
+      width: columns(3);
+    }
+ }
+ 
+ .main-content {
+    @include row;
+    margin-bottom: $vertical-measure;
+  }
+
+  section div {
+    padding: 1.8em 1em 0.93em 1em;
+  }
+
+ // -------- footer
+ .footer-section{
+   #footer-copyright {
+     @include offset(left, 0);
+     width: columns(2);
+    }
+
+   #footer-links {
+      @include offset(right, 2);
+      width: columns(7);
+    }
+  }
+}

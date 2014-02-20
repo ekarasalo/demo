@@ -1,0 +1,45 @@
+@import "compass/reset";
+
+@font-face {
+	font-family: 'HM Ampersand Regular';
+	src: url('../fonts/hmampersand-regular.eot');
+	src: url('../fonts/hmampersand-regular.eot#') format('embedded-opentype'),
+	     url('../fonts/hmampersand-regular.woff') format('woff'),
+	     url('../fonts/hmampersand-regular.ttf') format('truetype'),
+	     url('../fonts/hmampersand-regular.svg#hmampersand-regular') format('svg');
+	font-weight: normal;
+	font-style:  normal;
+}
+
+@font-face {
+	font-family: 'HM Ampersand Ultra Light';
+	src: url('../fonts/hmampersand-ultralight.eot');
+	src: url('../fonts/hmampersand-ultralight.eot#') format('embedded-opentype'),
+	     url('../fonts/hmampersand-ultralight.woff') format('woff'),
+	     url('../fonts/hmampersand-ultralight.ttf') format('truetype'),
+	     url('../fonts/hmampersand-ultralight.svg#hmampersand-ultralight') format('svg');
+	font-weight: normal;
+	font-style:  normal;
+}
+
+@font-face {
+	font-family: 'HM Ampersand Light';
+	src: url('../fonts/hmampersand-light.eot');
+	src: url('../fonts/hmampersand-light.eot#') format('embedded-opentype'),
+	     url('../fonts/hmampersand-light.woff') format('woff'),
+	     url('../fonts/hmampersand-light.ttf') format('truetype'),
+	     url('../fonts/hmampersand-light.svg#hmampersand-light') format('svg');
+	font-weight: normal;
+	font-style:  normal;
+}
+
+@font-face {
+	font-family: 'HM Ampersand Bold';
+	src: url('../fonts/hmampersand-bold.eot');
+	src: url('../fonts/hmampersand-bold.eot#') format('embedded-opentype'),
+	     url('../fonts/hmampersand-bold.woff') format('woff'),
+	     url('../fonts/hmampersand-bold.ttf') format('truetype'),
+	     url('../fonts/hmampersand-bold.svg#hmampersand-bold') format('svg');
+	font-weight: normal;
+	font-style:  normal;
+}
